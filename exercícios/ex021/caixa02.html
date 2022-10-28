@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(190, 170, 121);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: black;
+        }
+
+        header{
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+       
+        
+
+        nav > :hover{
+            text-decoration: underline;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: red;
+            border-radius: 50%;
+
+        }
+
+        nav{
+            background-color: rgb(51, 48, 48);
+            padding: 3px;
+            text-decoration: none;
+            background-color: white;
+            font-weight: bold;
+            box-shadow: 2px 2px 1px yellow;
+        }
+
+        main{
+            background-color: white;
+            width: 600px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 55px;
+        } 
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color: aliceblue;
+            padding: 5px;
+        }
+
+        footer{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grouping Tags</h1>
+        <nav>
+        <a href="#">LINK</a>
+        <a href="#">LINK</a>
+        <a href="#">LINK</a>
+        <a href="#">LINK</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="news">
+            <article>
+               <h2>News about from Brazil<h2>
+                <aside>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint odit possimus quos hic praesentium consequuntur nobis totam natus excepturi animi ipsam aut accusamus, corporis provident fugiat nemo soluta deleniti.</p>    
+                        <p>Conteúdo presente, escrito pelo Desenvolvedor FULL STACK Marcos Farias</p>
+                </aside>
+            </article>
+        </section>
+
+
+    </main>
+    
+    <footer>
+        Desenvolvido Pelo Desenvola Mente inc.
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

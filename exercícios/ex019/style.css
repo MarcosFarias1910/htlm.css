@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color: #D6D58E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p#oi{
+    text-align: right;
+}
+
+h1#like{
+    color: #05a897;
+    text-align: center;
+    background-color: #005C53;
+    color: white;
+}
+
+
+h1{
+    color: #005C53;
+    text-align: justify;
+}
+
+h2{
+    color: #4f6804;
+    text-align: justify;
+}
+
+p{
+    color: #4f580894;
+    text-align: justify;
+}
+
+h2.basico{
+    color: brown;
+    text-align: end;
+    background-color: #05a897;
+}
+
+.destaque{
+    background-color: yellow;
+    text-align: right;
+}

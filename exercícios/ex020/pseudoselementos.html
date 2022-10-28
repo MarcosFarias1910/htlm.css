@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoselementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        h1{
+            text-align: center;
+
+        }
+
+        a:visited{
+            color: darkgoldenrod;
+        }
+
+        a:holver{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>links personalizados</h1>
+    <ul>
+        
+        <a href="https://www.canva.com/" target="_blank">
+            <li>Instagram</li>
+        </a>
+        <a href="https://www.udemy.com/cart/success/777237374/" target="_blank">
+            <li>Facebook</li>
+        </a>
+        <a href="https://context.reverso.net/traducao/" target="_blank">
+            <li>Youtube</li>
+        </a>
+    </ul>
+</body>
+</html>
